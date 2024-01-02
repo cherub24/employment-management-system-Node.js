@@ -1,0 +1,23 @@
+<!-- views/departments.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management - Departments</title>
+    <!-- Add any necessary styles or scripts -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>List of Departments</h1>
+  <ul>
+    <% departments.forEach(function(department) { %>
+      <li><%= department.name %></li>
+      <!-- Display other department details as needed -->
+    <% }); %>
+  </ul>
+  
+
+  
+</body>
+</html>

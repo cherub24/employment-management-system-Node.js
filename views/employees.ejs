@@ -1,0 +1,24 @@
+<!-- views/employees.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management - Employees</title>
+    <!-- Add any necessary styles or scripts -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+  <h1>List of Employees</h1>
+<ul>
+  <% employees.forEach(function(employee) { %>
+    <li><%= employee.name %></li>
+    <!-- Display other employee details as needed -->
+  <% }); %>
+</ul>
+
+  
+
+</body>
+</html>

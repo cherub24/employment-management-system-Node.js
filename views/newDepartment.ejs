@@ -1,0 +1,18 @@
+<!-- views/newDepartment.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Department</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Add New Department</h1>
+    <form action="/departments/new" method="POST">
+        <label for="departmentName">Department Name:</label>
+        <input type="text" id="departmentName" name="name" required>
+        <button type="submit">Add Department</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!-- views/newEmployee.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Employee</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Add New Employee</h1>
+    <form action="/employees/new" method="POST">
+        <label for="employeeName">Employee Name:</label>
+        <input type="text" id="employeeName" name="name" required>
+        <!-- Other employee details inputs -->
+        <button type="submit">Add Employee</button>
+    </form>
+</body>
+</html>
